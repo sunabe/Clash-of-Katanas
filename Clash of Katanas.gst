@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4721-7945-0208-1507" name="Clash of Katanas" revision="3" battleScribeVersion="2.03" authorName="Karter Aurian" authorContact="Karter.Aurian@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4721-7945-0208-1507" name="Clash of Katanas" revision="4" battleScribeVersion="2.03" authorName="Karter Aurian" authorContact="Karter.Aurian@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Hope it all works
 
 Haven&apos;t figured out how to limit things like geisha&apos;s and assassins to 1 per army.
@@ -379,7 +379,7 @@ Start the battle with 2 Fate Points.</comment>
                 <cost name="PTS" typeId="b6a6-2192-6add-77b0" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2108-cb7c-e1c1-6650" name="Long Spear" publicationId="2b66-a6af-f775-7e3a" page="64" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="2108-cb7c-e1c1-6650" name="Thrusting Spear becomes Cavalry Long Spear when mounted" publicationId="2b66-a6af-f775-7e3a" page="64" hidden="false" collective="true" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="79da-e48c-875f-2822" value="0.0">
                   <conditionGroups>
@@ -965,6 +965,26 @@ action.
     <rule id="9482-fece-6783-48b1" name="Hwacha" publicationId="2b66-a6af-f775-7e3a" page="48" hidden="false">
       <description>See full rules on page 48 of Clash of Katanas</description>
     </rule>
+    <rule id="3f79-6883-5073-9546" name="Aimed Shot" publicationId="2b66-a6af-f775-7e3a" page="25" hidden="false">
+      <description>(loose order, af fects shooting)
+
+When these troops perform a Ready action, place a Ready token or maker next to them to indicate that they have taken the Ready action. This token remains there until the unit completes an action or rest/rally at which point it is removed.
+ If a unit with this token next to them executes a shoot action against an enemy unit in close range, the unit may reroll any misses.</description>
+    </rule>
+    <rule id="76c4-88ea-3c72-aabc" name="Pavises" publicationId="2b66-a6af-f775-7e3a" page="24" hidden="false">
+      <description>(1 armor point against missile attacks when
+deployed)
+
+Missile troops can carry large shields known as pavises, or Tate for the Japanese.
+ A unit equipped with pavises starts the battle with the pavises shouldered. While a unit has pavises shouldered it may not do any shoot actions and it always counts as if their save stat was one point lower for fatigue, so a unit with a saving throw of 6 with shouldered pavises counts as 5+ for fatigue, a unit with 5+ save stat counts as 4+ for fatigue and so on. 
+  unit in close order can deploy the pavises by executing a ready action, place the pavises in front of the unit. 
+ A unit with deployed pavises gains a +1 to their saving throw against any missile attacks from enemies to their front. In addition, while the unit has any unloaded token the player may re-roll any 1s rolled on saving throws, reflecting the additional protection gained while troops are reloading.
+ Units with deployed pavises never get the cover benefit from linear obstacles. A unit with deployed pavises can execute a ready action to shoulder the pavises.
+ A unit in loose order with deployed pavises gains no benefit from the pavises and must execute a form close order action to regain the benefit.
+ If a unit with deployed pavises executes a move, attack or all-out attack action, the pavises are destroyed and removed from the table.
+ If a unit with pavises, is engaged in hand to hand combat the pavises are destroyed.
+ A unit can abandon the pavises for free at  the start of any move, attack or all-out-attack action, the pavises are destroyed and removed from the table.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="588c-7fae-6ecb-740a" name="Lvl 2 Veteran Warrior" publicationId="2b66-a6af-f775-7e3a" page="64" hidden="false" typeId="dc2f-6d51-5296-2e3e" typeName="Leader Other">
@@ -1215,7 +1235,7 @@ the Nembutsu Chants.
         <characteristic name="Notes" typeId="c8a2-5e66-da06-7058">May not use shield</characteristic>
       </characteristics>
     </profile>
-    <profile id="6fc3-97cc-b28b-5b93" name="War Bow (mounted)" publicationId="2b66-a6af-f775-7e3a" page="18" hidden="false" typeId="3b23-2b3e-2aa1-7894" typeName="Missile Weapons">
+    <profile id="6fc3-97cc-b28b-5b93" name="War Bow (Mounted)" publicationId="2b66-a6af-f775-7e3a" page="18" hidden="false" typeId="3b23-2b3e-2aa1-7894" typeName="Missile Weapons">
       <characteristics>
         <characteristic name="Missile Weapon" typeId="f27b-abc8-6cdc-6051">War Bow</characteristic>
         <characteristic name="Range (Close/Long)" typeId="3aaa-036d-a3bd-7c93">8”/16”</characteristic>
