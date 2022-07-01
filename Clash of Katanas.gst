@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4721-7945-0208-1507" name="Clash of Katanas" revision="4" battleScribeVersion="2.03" authorName="Karter Aurian" authorContact="Karter.Aurian@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4721-7945-0208-1507" name="Clash of Katanas" revision="5" battleScribeVersion="2.03" authorName="Karter Aurian" authorContact="Karter.Aurian@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Hope it all works
 
 Haven&apos;t figured out how to limit things like geisha&apos;s and assassins to 1 per army.
@@ -478,7 +478,7 @@ Start the battle with 2 Fate Points.</comment>
                 <cost name="PTS" typeId="b6a6-2192-6add-77b0" value="3.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="56f0-be1a-bddf-f8f3" name="Warbow" publicationId="2b66-a6af-f775-7e3a" page="64" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="56f0-be1a-bddf-f8f3" name="War Bow" publicationId="2b66-a6af-f775-7e3a" page="64" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="ecbc-0565-248a-5df5" value="0.0">
                   <conditions>
@@ -575,36 +575,6 @@ Start the battle with 2 Fate Points.</comment>
       <description>You can attach a musician to one of your characters, the musician will use a drum (Taiko) or the Conch Shell (Horagai). The model remains in base-to-base contact with the character and extend the command range to 16” but only to activate units. When checking command range to attempt a reaction use the command range of the character ignoring the effect of the musician. 
  The musician is never targeted, nor can they fight, and is removed if the character model is eliminated from the game without any additional effect.</description>
     </rule>
-    <rule id="d505-b44f-505c-f20b" name="Standard Bearer" publicationId="2b66-a6af-f775-7e3a" page="65" hidden="false">
-      <description>You can attach a standard bearer to a character, this could be a Nobori or a Jirushi.
- The model remains in base-to-base contact with the character at all times. If a character with an attached standard bearer attempts to rally a unit within command range the player may re-roll any dice that failed to recover fatigue in the attempt.
- The standard bearer is never targeted, nor can they fight, and is removed if the character model is eliminated from the game without any additional effect.</description>
-    </rule>
-    <rule id="b1e8-082b-14ba-4b62" name="Assasins" publicationId="2b66-a6af-f775-7e3a" page="65" hidden="false">
-      <description>Any force may include up to one Assassin. This limit applies to the force overall, so you cannot increase the number of assassins through the use of allied warbands.
- If you are building an Iga/Koga force you can either include an Assassin or a Master Assassin.
- You may not purchase any equipment for the Assassin or Master Assassin, they come equipped as indicated in Chapter 2 of this book.</description>
-    </rule>
-    <rule id="56ad-03d1-dfd7-5619" name="Tsukaiban - messenger" publicationId="2b66-a6af-f775-7e3a" page="65" hidden="false">
-      <description>If the army list allows it, you may include up to one Tsukaiban per each level 4 or level 5 character in your force. The Tsukaiban follows the rules presented earlier in this supplement.</description>
-    </rule>
-    <rule id="7ad1-64d2-aac3-2ae0" name="Geisha" publicationId="2b66-a6af-f775-7e3a" page="65" hidden="false">
-      <description>If the army list allows it, you may include up to one Geisha in your force. If your force has a Geisha, you’ll be able to perform the Tea Ceremony at the start of the battle. If you have a painted model to place on the side of the table you can purchase a Geisha for 15 pts, if you don’t you may still purchase a Geisha, but it will cost you 20 pts.</description>
-    </rule>
-    <rule id="e573-4a83-52cf-0f16" name="Portable Buddhist Shrine" publicationId="2b66-a6af-f775-7e3a" page="65" hidden="false">
-      <description>If the army list allows it, you may purchase a portable shrine or a large banner with a Goishun (handwritten shrine seal). The shrine was brought to war to unnerve the enemy soldiers who knew that it was considered blasphemy to engage in violence in the presence of the shrine, unless of course you were a member of the Ikko Ikki.
- The shrine model must be placed within 6” of your table edge. If your force includes a portable shrine you may re-roll the result when attempting
-the Nembutsu Chants. 
- If an enemy model ends up in base-to-base contact with the shrine, remove the shrine from the table. This has no effect on the game as at that point the fate will be determined in the battlefield and not in the spiritual world.</description>
-    </rule>
-    <rule id="e729-cceb-c4a1-7c37" name="Sake rations" publicationId="2b66-a6af-f775-7e3a" page="66" hidden="false">
-      <description>If the army list allows it, an enterprising warlord might choose to make sake rations available to their warriors to better predispose them before giving a Rousing Speech.
- If you purchase sake rations for your force you may re-roll the result when attempting to give a Rousing Speech.</description>
-    </rule>
-    <rule id="e70a-f767-aae2-b997" name="Soothsayer" publicationId="2b66-a6af-f775-7e3a" page="66" hidden="false">
-      <description>If the army list allows it, you may purchase a soothsayer for your force. If your force includes a Soothsayer you may re-roll the result of consulting the omens before the battle.
- The Soothsayer never joins the battle remaining in the rear ranks with the support staff. If you have a painted Soothsayer model that you can place next to the table you can purchase the Soothsayer for 15 pts. If you don’t have a painted Soothsayer model you can still include it in your force but it will cost you 20 pts.</description>
-    </rule>
     <rule id="0c19-f3d8-8903-a5b3" name="New Rule" publicationId="2b66-a6af-f775-7e3a" page="25" hidden="false">
       <comment>Aimed Shot</comment>
       <description>(loose order, af fects shooting)
@@ -613,31 +583,31 @@ When these troops perform a Ready action, place a Ready token or maker next to t
  If a unit with this token next to them executes a shoot action against an enemy unit in close range, the unit may reroll any misses.</description>
     </rule>
     <rule id="e858-ddd4-90c8-d71c" name="Ashigaru Drill" publicationId="2b66-a6af-f775-7e3a" page="25" hidden="false">
-      <description>(af fects Pike rules and form close order action)
+      <description>(affects Pike rules and form close order action)
 
 Troops with this trait still count as using the Pike while in loose order and are not forced to use a hand weapon, as indicated by the Pike rules, as long as all the models in the unit are fully in open terrain.
  In addition to this, troops with this trait that wish to do a Form Close Order action as a reaction when they have an active enemy within 8” do not need to be in command range to react, nor do they need a CP to react. They do, however, need to do a reaction test as usual. A character in command range can spends CPs as usual to improve the odds of success.
  Finally, these troops never gain fatigue for executing a form close order action, even when the fatigue table would indicate otherwise.</description>
     </rule>
     <rule id="cdd3-6f40-2c09-f2be" name="Bushmaster" publicationId="2b66-a6af-f775-7e3a" page="25" hidden="false">
-      <description>(af fects morale and saves in high terrain)
+      <description>(affects morale and saves in high terrain)
 
 Troops with the Bushmaster trait that have to take a morale test while all the models in the unit are in high area terrain may re-roll any 1s rolled, before applying any modifiers.
  These troops gain a +1 save modifiers against missile attacks while in high area
 terrain.</description>
     </rule>
     <rule id="cc06-d370-985b-b9e8" name="Charge" publicationId="2b66-a6af-f775-7e3a" page="26" hidden="false">
-      <description>(requires Attack action in loose order armed with cavalr y long spear, af fects  Attack mechanics, enemy saving throw and morale)
+      <description>(requires Attack action in loose order armed with cavalry long spear, af fects  Attack mechanics, enemy saving throw and morale)
 
 A mounted unit in loose order with cavalry long spears executing an attack action against an enemy with lower weapon initiative gains a -1 save modifier to their hits.</description>
     </rule>
     <rule id="4819-db9b-6f59-4d46" name="Combined Arms" publicationId="2b66-a6af-f775-7e3a" page="26" hidden="false">
-      <description>(requires Attack action and mixed weapons, af fects to-hit rolls)
+      <description>(requires Attack action and mixed weapons, affects to-hit rolls)
 
 When executing an Attack action, or when selecting Defend as a combat response, troops with this trait may re-roll any to-hit rolls of 1 before applying any relevant modifiers.</description>
     </rule>
     <rule id="ff67-0589-a472-9a59" name="Deadly Strike" publicationId="2b66-a6af-f775-7e3a" page="26" hidden="false">
-      <description>(af fects enemy combat response)
+      <description>(affects enemy combat response)
 
 When choosing to do an Attack action, the player can indicate that the trait will be used, this must be announced before the defender selects any combat response.
  When using deadly strike, if the enemy player chooses counterattack as a combat response, the counterattack takes place first, after the counter
@@ -645,7 +615,7 @@ attack wounds are applied if the attacker is still alive, then conduct the attac
  Any models with the wounds(x) trait will suffer two wounds instead of one for each unsaved hit from an attacker using the deadly strike trait.</description>
     </rule>
     <rule id="70f5-69fc-f349-3df4" name="Extra Equipment (X)" publicationId="2b66-a6af-f775-7e3a" page="26" hidden="false">
-      <description>(af fects equipment usage)
+      <description>(affects equipment usage)
 
 When troops carry equipment that cannot be used at the same time (i.e., bows and shields), we need to identify what equipment is in use by the
 troops at each point in the battle. 
@@ -713,7 +683,7 @@ To apply this trait the unit must execute an attack action while none of the mod
 and the enemy selects counterattack as a combat response, they must apply a -1 modifier to the counter attacking to-hit rolls.</description>
     </rule>
     <rule id="ca48-a294-edfa-38d5" name="Mandarin Duck" publicationId="2b66-a6af-f775-7e3a" page="30" hidden="false">
-      <description>(af fects reaction)
+      <description>(affects reaction)
 
 A unit with the Mandarin Duck trait that has another unit with the Mandarin Duck trait an in loose order,at a range of 2” or less and wants to react when an enemy unit within 8” announces an action can attempt the following special
 reaction.
@@ -739,14 +709,14 @@ will add an additional D6 to their morale test dice, just as if they had suffere
 an additional casualty.</description>
     </rule>
     <rule id="77c2-4c9c-11ce-230f" name="Momentum" publicationId="2b66-a6af-f775-7e3a" page="32" hidden="false">
-      <description>(requires pole arms in open terrain, af fects enemy on defend response and saving throw)
+      <description>(requires pole arms in open terrain, affects enemy on defend response and saving throw)
 
 This trait applies when an attacker selects Attack while all the attacking models are fully in open terrain and armed with pole weapons. 
  Any attacker to hit rolls of 6, before applying any modifiers, will result in an additional -1 save modifier.
  In addition to this, if the defending unit selects defend as their combat response they will suffer a -1 to their defend rolls.</description>
     </rule>
     <rule id="d9d2-3558-9345-f859" name="Mounted" publicationId="2b66-a6af-f775-7e3a" page="32" hidden="false">
-      <description>(af fects various)
+      <description>(affects various)
 
 The following rules apply to mounted troops:
 
@@ -797,7 +767,7 @@ This trait takes effect when troops select defend while in loose order against a
 When a unit with rain of blows executes an All-Out-Attack action they may re-roll any 1s and 2s rolled in the to hit roll before applying any modifiers.</description>
     </rule>
     <rule id="50ed-7ab9-239e-3d86" name="Rotational Fire" publicationId="2b66-a6af-f775-7e3a" page="34" hidden="false">
-      <description>(requires close order and Teppo, af fects unloaded counters)
+      <description>(requires close order and Teppo, affects unloaded counters)
 
 Troops with this trait formed in close order may choose to only count the models in the front rank when determining the number of models that can fire. When doing this the unit does not gain any fatigue for the shoot action even if the fatigue table indicates they should. In addition, for each rank after the first, the unit will negate one of the reload markers gained, as long as that rank has at least half the number of models in the front rank.
  Troops with this trait never gain fatigue when doing a form close order action, even when the fatigue table  indicates they should. 
@@ -824,30 +794,30 @@ increase their odds of passing that reaction test.
  When troops with the Skirmish Specialist trait have to test morale due to a melee combat while at least some of the models in this unit are in open terrain, they add an additional D6 to any morale test dice pool, just as if they had suffered an additional casualty, unless the enemy troops are themselves skirmish specialists.</description>
     </rule>
     <rule id="b987-88fe-a8d2-f0c6" name="Sharpshooter" publicationId="2b66-a6af-f775-7e3a" page="35" hidden="false">
-      <description>(requires missile weapon, af fects shoot action)
+      <description>(requires missile weapon, affects shoot action)
 
 When these troops perform a Ready action, place a Ready token or maker next to them to indicate that they have taken the Ready action. This token remains there until after the unit performs an action or rests/rally, at which point
 the token is removed.
  If a unit with this token next to them executes a shoot action they add +1 to their to-hit rolls.</description>
     </rule>
     <rule id="5f2b-ec66-2241-0d2e" name="Tate Specialist" publicationId="2b66-a6af-f775-7e3a" page="36" hidden="false">
-      <description>(requires pavise and af fects morale)
+      <description>(requires pavise and affects morale)
 
 While these troops have deployed pavises and are in close order, if called to take a morale test as a result of missile attacks from enemies to their front they may re-roll any 1s and 2s in the morale test before applying any modifiers.</description>
     </rule>
     <rule id="5d66-524d-6472-68ed" name="Uteya or “Thrust”" publicationId="2b66-a6af-f775-7e3a" page="36" hidden="false">
-      <description>(requires Attack action in loose order in the open and any type of infantr y spear or pike, af fects enemy counter attack)
+      <description>(requires Attack action in loose order in the open and any type of infantr y spear or pike, affects enemy counter attack)
 
 When executing an Attack action in loose order while all attacking models are in open terrain at the time of the melee, against enemies armed with lower initiative weapons; if the enemy selects counter-attack as the combat response, any 1s rolled by the counter-attacking player, before applying any modifiers but after any re-rolls, will count as  additional hits caused by the attacker.</description>
     </rule>
     <rule id="1368-1e12-4bdb-b5bd" name="Volley" publicationId="2b66-a6af-f775-7e3a" page="36" hidden="false">
-      <description>(requires close order and Arquebus, af fects enemy morale)
+      <description>(requires close order and Arquebus, affects enemy morale)
 
 When troops with the volley trait execute a shoot action while in close order, enemy targets must add an additional D6 to any morale tests required, just as if they had suffered an additional casualty. Troops with this trait can still form in close order even if they are within 2” of a linear obstacle and parallel to it.
  A unit formed in close order in three ranks or more will not get any benefit from the volley rule. This represents the specific training related to the fire doctrine that will result in an effective volley. While troops in more ranks might be able to put the same volume of fire we will assume that this volley is not coordinated enough to produce the effect of the two rank or one rank volley.</description>
     </rule>
     <rule id="88fd-c9d2-881a-514d" name="Wall of Spears" publicationId="2b66-a6af-f775-7e3a" page="37" hidden="false">
-      <description>(requires close order af fects hold)
+      <description>(requires close order affects hold)
 
 When a unit with the Wall of Spears formed in close order, selects hold as a combat response against an enemy with lower initiative weapons, modify the hold response as follows:
 
@@ -857,7 +827,7 @@ When a unit with the Wall of Spears formed in close order, selects hold as a com
 * The attacker does not to take a morale test due to these hits or casualties.</description>
     </rule>
     <rule id="f3fe-ae4f-2bcd-a174" name="Yoji-gakure" publicationId="2b66-a6af-f775-7e3a" page="37" hidden="false">
-      <description>(af fects enemy combat response)
+      <description>(affects enemy combat response)
 
 When doing an attack action against a character or a unit with fewer models than the attacker’s total number of attacks, the player can indicate that they will use the Yoji-gakure trait, this must be announced before the enemy
 selects any combat response.
@@ -930,7 +900,7 @@ Troops with this trait do not need to take a morale test when an enemy unit with
 Troops with the independent trait do not require a command point to activate or to react, if they currently don’t  accumulate any action tokens. Activation and reaction tests are still required and can be influenced by CPs as normal. When attempting a reaction without the use of CPs, if the reaction is failed the unit gains an action token, unless the  unit is benefiting from the skirmish specialist trait. CPs can still be use to activate or react if needed.</description>
     </rule>
     <rule id="8f05-7fdf-356d-8fd2" name="Iron Will" publicationId="2b66-a6af-f775-7e3a" page="42" hidden="false">
-      <description>(affects fatigue ef fect)
+      <description>(affects fatigue effect)
 
 Troops with this trait are not eliminated when the accumulated fatigue is more than twice the number of models remaining. 
  If a model with this trait is attached to a unit and the unit gains fatigue exceeding twice the number of remaining models, not counting this model, remove the other models, and leave the model with this trait alone where he stands.</description>
@@ -966,7 +936,7 @@ action.
       <description>See full rules on page 48 of Clash of Katanas</description>
     </rule>
     <rule id="3f79-6883-5073-9546" name="Aimed Shot" publicationId="2b66-a6af-f775-7e3a" page="25" hidden="false">
-      <description>(loose order, af fects shooting)
+      <description>(loose order, affects shooting)
 
 When these troops perform a Ready action, place a Ready token or maker next to them to indicate that they have taken the Ready action. This token remains there until the unit completes an action or rest/rally at which point it is removed.
  If a unit with this token next to them executes a shoot action against an enemy unit in close range, the unit may reroll any misses.</description>
