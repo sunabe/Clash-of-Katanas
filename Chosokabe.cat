@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="db13-edc6-aab3-249a" name="Chosokabe" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="4721-7945-0208-1507" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="db13-edc6-aab3-249a" name="Chosokabe" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="4721-7945-0208-1507" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="0d7e-2476-c248-06b4" name="Assassin" hidden="false" collective="false" import="true" targetId="8df8-1086-08dd-13c1" type="selectionEntry"/>
     <entryLink id="b79d-fdd3-450e-c4b5" name="Geisha" hidden="false" collective="false" import="true" targetId="89cb-ea3d-93c5-3d18" type="selectionEntry"/>
@@ -218,7 +218,7 @@
         </infoLink>
         <infoLink id="20fa-7b34-b06e-2a75" name="Wounds (X)" hidden="false" targetId="07c6-cfbe-cdcd-4215" type="rule"/>
         <infoLink id="6504-0653-0d55-2e22" name="Iron Will" hidden="false" targetId="8f05-7fdf-356d-8fd2" type="rule"/>
-        <infoLink id="efbb-0149-f4ef-a8de" name="Additional Hand Weapon" hidden="false" targetId="9e3b-20df-bebe-411a" type="profile">
+        <infoLink id="efbb-0149-f4ef-a8de" name="Additional Hand Weapon" hidden="true" targetId="9e3b-20df-bebe-411a" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -227,7 +227,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="536f-2d91-0a5f-05b1" name="Extra Equipment (X)" hidden="false" targetId="70f5-69fc-f349-3df4" type="rule">
+        <infoLink id="536f-2d91-0a5f-05b1" name="Extra Equipment (X)" hidden="true" targetId="70f5-69fc-f349-3df4" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -236,7 +236,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="dd83-97d9-1677-3f1e" name="Heavy Weapons" hidden="false" targetId="36c9-efdd-16d9-dfab" type="profile">
+        <infoLink id="dd83-97d9-1677-3f1e" name="Heavy Weapons" hidden="true" targetId="36c9-efdd-16d9-dfab" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -245,7 +245,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="c424-8f16-97ce-bd01" name="Polearms" hidden="false" targetId="c2cb-63bc-d78b-a2b1" type="profile">
+        <infoLink id="c424-8f16-97ce-bd01" name="Polearms" hidden="true" targetId="c2cb-63bc-d78b-a2b1" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -254,7 +254,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="d4cb-0d8b-8fd1-df3f" name="Mounted" hidden="false" targetId="d9d2-3558-9345-f859" type="rule">
+        <infoLink id="d4cb-0d8b-8fd1-df3f" name="Mounted" hidden="true" targetId="d9d2-3558-9345-f859" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -263,7 +263,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="fe60-e1f4-72c3-9072" name="Thrusting Spear" hidden="false" targetId="66be-7f44-d755-1ec3" type="profile">
+        <infoLink id="fe60-e1f4-72c3-9072" name="Thrusting Spear" hidden="true" targetId="66be-7f44-d755-1ec3" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -277,7 +277,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="5bb6-3b85-6eab-445a" name="Arquebus" hidden="false" targetId="7edd-9692-e7cc-2347" type="profile">
+        <infoLink id="5bb6-3b85-6eab-445a" name="Arquebus" hidden="true" targetId="7edd-9692-e7cc-2347" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -286,7 +286,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="bd14-c754-91af-c842" name="War Bow (mounted)" hidden="false" targetId="6fc3-97cc-b28b-5b93" type="profile">
+        <infoLink id="bd14-c754-91af-c842" name="War Bow (Mounted)" hidden="true" targetId="6fc3-97cc-b28b-5b93" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -300,7 +300,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="7810-f233-dc59-ea67" name="War Bow" hidden="false" targetId="f586-85ee-c329-5239" type="profile">
+        <infoLink id="7810-f233-dc59-ea67" name="War Bow" hidden="true" targetId="f586-85ee-c329-5239" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -314,7 +314,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="24df-0383-2773-db3d" name="Off Hand Parry" hidden="false" targetId="9ef1-040d-9c12-0031" type="rule">
+        <infoLink id="24df-0383-2773-db3d" name="Off Hand Parry" hidden="true" targetId="9ef1-040d-9c12-0031" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -325,7 +325,7 @@
         </infoLink>
         <infoLink id="a053-5576-cbc1-3295" name="Honorable" hidden="false" targetId="248c-5a38-ff9b-1443" type="rule"/>
         <infoLink id="e723-0a16-c4d0-30e8" name="The Old Ways" hidden="false" targetId="580d-9ae4-403e-9ac7" type="rule"/>
-        <infoLink id="4c3e-98cc-88a7-1830" name="Cavalry Long Spear" hidden="false" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
+        <infoLink id="4c3e-98cc-88a7-1830" name="Cavalry Long Spear" hidden="true" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -333,6 +333,24 @@
                   <conditions>
                     <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
                     <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d659-d9c2-30f7-d264" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8cb7-899d-09f7-3f25" name="Hand Weapon" hidden="false" targetId="da61-d14e-1496-e15e" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f94-47c4-70c5-60ae" type="equalTo"/>
+                    <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
+                    <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f44-e3b3-db99-3b76" type="equalTo"/>
+                    <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5113-3683-ddfc-ecc6" type="equalTo"/>
+                    <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd4d-5f5a-6ac1-2401" type="equalTo"/>
+                    <condition field="selections" scope="e67f-20ab-9ad7-44f3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-be1a-bddf-f8f3" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -498,7 +516,7 @@
             </modifierGroup>
           </modifierGroups>
         </infoLink>
-        <infoLink id="48bc-d526-8c35-a652" name="Off Hand Parry" hidden="false" targetId="9ef1-040d-9c12-0031" type="rule">
+        <infoLink id="48bc-d526-8c35-a652" name="Off Hand Parry" hidden="true" targetId="9ef1-040d-9c12-0031" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -507,7 +525,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="2080-542b-843f-627a" name="Additional Hand Weapon" hidden="false" targetId="9e3b-20df-bebe-411a" type="profile">
+        <infoLink id="2080-542b-843f-627a" name="Additional Hand Weapon" hidden="true" targetId="9e3b-20df-bebe-411a" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -516,7 +534,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="fa53-05bd-a027-9875" name="Mounted" hidden="false" targetId="d9d2-3558-9345-f859" type="rule">
+        <infoLink id="fa53-05bd-a027-9875" name="Mounted" hidden="true" targetId="d9d2-3558-9345-f859" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -525,7 +543,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="d540-01fe-1119-b5db" name="Arquebus" hidden="false" targetId="7edd-9692-e7cc-2347" type="profile">
+        <infoLink id="d540-01fe-1119-b5db" name="Arquebus" hidden="true" targetId="7edd-9692-e7cc-2347" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -534,7 +552,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="f302-1567-5435-8ee5" name="Polearms" hidden="false" targetId="c2cb-63bc-d78b-a2b1" type="profile">
+        <infoLink id="f302-1567-5435-8ee5" name="Polearms" hidden="true" targetId="c2cb-63bc-d78b-a2b1" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -543,7 +561,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="b6a6-e670-ee93-75b4" name="Heavy Weapons" hidden="false" targetId="36c9-efdd-16d9-dfab" type="profile">
+        <infoLink id="b6a6-e670-ee93-75b4" name="Heavy Weapons" hidden="true" targetId="36c9-efdd-16d9-dfab" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -552,7 +570,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="cfda-399a-4a29-7046" name="Extra Equipment (X)" hidden="false" targetId="70f5-69fc-f349-3df4" type="rule">
+        <infoLink id="cfda-399a-4a29-7046" name="Extra Equipment (X)" hidden="true" targetId="70f5-69fc-f349-3df4" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -561,7 +579,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="c8b9-5b2b-1258-b890" name="Thrusting Spear" hidden="false" targetId="66be-7f44-d755-1ec3" type="profile">
+        <infoLink id="c8b9-5b2b-1258-b890" name="Thrusting Spear" hidden="true" targetId="66be-7f44-d755-1ec3" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -576,7 +594,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="141e-24db-9e8d-f2f8" name="Wounds (X)" hidden="false" targetId="07c6-cfbe-cdcd-4215" type="rule"/>
-        <infoLink id="85aa-f2f8-9ab3-50a3" name="War Bow" hidden="false" targetId="f586-85ee-c329-5239" type="profile">
+        <infoLink id="85aa-f2f8-9ab3-50a3" name="War Bow" hidden="true" targetId="f586-85ee-c329-5239" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -592,7 +610,7 @@
         </infoLink>
         <infoLink id="394b-396d-08b3-b7e4" name="Honorable" hidden="false" targetId="248c-5a38-ff9b-1443" type="rule"/>
         <infoLink id="9069-2ad6-07e5-94f9" name="The Old Ways" hidden="false" targetId="580d-9ae4-403e-9ac7" type="rule"/>
-        <infoLink id="3b57-67d5-48c9-abbf" name="War Bow (mounted)" hidden="false" targetId="6fc3-97cc-b28b-5b93" type="profile">
+        <infoLink id="3b57-67d5-48c9-abbf" name="War Bow (Mounted)" hidden="true" targetId="6fc3-97cc-b28b-5b93" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -606,7 +624,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="5beb-6ad4-5d1a-089d" name="Cavalry Long Spear" hidden="false" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
+        <infoLink id="5beb-6ad4-5d1a-089d" name="Cavalry Long Spear" hidden="true" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -614,6 +632,24 @@
                   <conditions>
                     <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
                     <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d659-d9c2-30f7-d264" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4690-472a-3d74-2922" name="Hand Weapon" hidden="false" targetId="da61-d14e-1496-e15e" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f94-47c4-70c5-60ae" type="equalTo"/>
+                    <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
+                    <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f44-e3b3-db99-3b76" type="equalTo"/>
+                    <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5113-3683-ddfc-ecc6" type="equalTo"/>
+                    <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd4d-5f5a-6ac1-2401" type="equalTo"/>
+                    <condition field="selections" scope="5c3b-310c-12b3-5c22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-be1a-bddf-f8f3" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -783,7 +819,7 @@
         <infoLink id="5e32-aaf6-8e31-eb11" name="Iron Will" hidden="false" targetId="8f05-7fdf-356d-8fd2" type="rule"/>
         <infoLink id="b8db-c595-dbd9-efca" name="Honorable" hidden="false" targetId="248c-5a38-ff9b-1443" type="rule"/>
         <infoLink id="c4b6-1bf4-9a88-b707" name="The Old Ways" hidden="false" targetId="580d-9ae4-403e-9ac7" type="rule"/>
-        <infoLink id="3bd1-e9f3-822f-7b0d" name="Off Hand Parry" hidden="false" targetId="9ef1-040d-9c12-0031" type="rule">
+        <infoLink id="3bd1-e9f3-822f-7b0d" name="Off Hand Parry" hidden="true" targetId="9ef1-040d-9c12-0031" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -792,7 +828,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="1e21-70de-b2f4-e229" name="Additional Hand Weapon" hidden="false" targetId="9e3b-20df-bebe-411a" type="profile">
+        <infoLink id="1e21-70de-b2f4-e229" name="Additional Hand Weapon" hidden="true" targetId="9e3b-20df-bebe-411a" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -801,7 +837,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="c8b0-50bd-b056-f332" name="Arquebus" hidden="false" targetId="7edd-9692-e7cc-2347" type="profile">
+        <infoLink id="c8b0-50bd-b056-f332" name="Arquebus" hidden="true" targetId="7edd-9692-e7cc-2347" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -810,7 +846,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="1bff-4e25-692e-cb01" name="Mounted" hidden="false" targetId="d9d2-3558-9345-f859" type="rule">
+        <infoLink id="1bff-4e25-692e-cb01" name="Mounted" hidden="true" targetId="d9d2-3558-9345-f859" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -819,7 +855,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="8612-490d-def8-9a60" name="Extra Equipment (X)" hidden="false" targetId="70f5-69fc-f349-3df4" type="rule">
+        <infoLink id="8612-490d-def8-9a60" name="Extra Equipment (X)" hidden="true" targetId="70f5-69fc-f349-3df4" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -828,7 +864,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="f42d-358b-3eb6-1e85" name="Polearms" hidden="false" targetId="c2cb-63bc-d78b-a2b1" type="profile">
+        <infoLink id="f42d-358b-3eb6-1e85" name="Polearms" hidden="true" targetId="c2cb-63bc-d78b-a2b1" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -837,7 +873,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="350a-27bb-6b1b-602f" name="War Bow (mounted)" hidden="false" targetId="6fc3-97cc-b28b-5b93" type="profile">
+        <infoLink id="350a-27bb-6b1b-602f" name="War Bow (Mounted)" hidden="true" targetId="6fc3-97cc-b28b-5b93" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -851,7 +887,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="a0e5-1ccb-6fef-d6a7" name="Thrusting Spear" hidden="false" targetId="66be-7f44-d755-1ec3" type="profile">
+        <infoLink id="a0e5-1ccb-6fef-d6a7" name="Thrusting Spear" hidden="true" targetId="66be-7f44-d755-1ec3" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -865,7 +901,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="4727-5653-f8b4-0f2f" name="Heavy Weapons" hidden="false" targetId="36c9-efdd-16d9-dfab" type="profile">
+        <infoLink id="4727-5653-f8b4-0f2f" name="Heavy Weapons" hidden="true" targetId="36c9-efdd-16d9-dfab" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -874,7 +910,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="d43b-350c-fb42-19ba" name="War Bow" hidden="false" targetId="f586-85ee-c329-5239" type="profile">
+        <infoLink id="d43b-350c-fb42-19ba" name="War Bow" hidden="true" targetId="f586-85ee-c329-5239" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -888,7 +924,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="0b7d-4472-f999-8eb2" name="Cavalry Long Spear" hidden="false" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
+        <infoLink id="0b7d-4472-f999-8eb2" name="Cavalry Long Spear" hidden="true" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -896,6 +932,24 @@
                   <conditions>
                     <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
                     <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d659-d9c2-30f7-d264" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="26ab-1b97-5941-b6ac" name="Hand Weapon" hidden="false" targetId="da61-d14e-1496-e15e" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f94-47c4-70c5-60ae" type="equalTo"/>
+                    <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
+                    <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f44-e3b3-db99-3b76" type="equalTo"/>
+                    <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5113-3683-ddfc-ecc6" type="equalTo"/>
+                    <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd4d-5f5a-6ac1-2401" type="equalTo"/>
+                    <condition field="selections" scope="788d-2619-f904-a9ea" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-be1a-bddf-f8f3" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1074,7 +1128,7 @@
             </modifierGroup>
           </modifierGroups>
         </infoLink>
-        <infoLink id="a98c-b40e-09a1-87c1" name="Heavy Weapons" hidden="false" targetId="36c9-efdd-16d9-dfab" type="profile">
+        <infoLink id="a98c-b40e-09a1-87c1" name="Heavy Weapons" hidden="true" targetId="36c9-efdd-16d9-dfab" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1083,7 +1137,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="8810-9039-efe7-96b3" name="Arquebus" hidden="false" targetId="7edd-9692-e7cc-2347" type="profile">
+        <infoLink id="8810-9039-efe7-96b3" name="Arquebus" hidden="true" targetId="7edd-9692-e7cc-2347" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1092,7 +1146,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="61be-31c6-f6ec-1f51" name="Off Hand Parry" hidden="false" targetId="9ef1-040d-9c12-0031" type="rule">
+        <infoLink id="61be-31c6-f6ec-1f51" name="Off Hand Parry" hidden="true" targetId="9ef1-040d-9c12-0031" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1101,7 +1155,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="3eb3-1446-2d83-44e6" name="Additional Hand Weapon" hidden="false" targetId="9e3b-20df-bebe-411a" type="profile">
+        <infoLink id="3eb3-1446-2d83-44e6" name="Additional Hand Weapon" hidden="true" targetId="9e3b-20df-bebe-411a" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1110,7 +1164,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="1c34-54e5-31d7-f357" name="Mounted" hidden="false" targetId="d9d2-3558-9345-f859" type="rule">
+        <infoLink id="1c34-54e5-31d7-f357" name="Mounted" hidden="true" targetId="d9d2-3558-9345-f859" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1119,7 +1173,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="48b0-0760-d674-72e1" name="War Bow (mounted)" hidden="false" targetId="6fc3-97cc-b28b-5b93" type="profile">
+        <infoLink id="48b0-0760-d674-72e1" name="War Bow (Mounted)" hidden="true" targetId="6fc3-97cc-b28b-5b93" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -1133,7 +1187,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="7b76-c663-1afe-4325" name="Polearms" hidden="false" targetId="c2cb-63bc-d78b-a2b1" type="profile">
+        <infoLink id="7b76-c663-1afe-4325" name="Polearms" hidden="true" targetId="c2cb-63bc-d78b-a2b1" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1142,7 +1196,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="ce87-c08d-ef1a-3924" name="Thrusting Spear" hidden="false" targetId="66be-7f44-d755-1ec3" type="profile">
+        <infoLink id="ce87-c08d-ef1a-3924" name="Thrusting Spear" hidden="true" targetId="66be-7f44-d755-1ec3" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -1156,7 +1210,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="4987-a8b3-1a34-f726" name="Extra Equipment (X)" hidden="false" targetId="70f5-69fc-f349-3df4" type="rule">
+        <infoLink id="4987-a8b3-1a34-f726" name="Extra Equipment (X)" hidden="true" targetId="70f5-69fc-f349-3df4" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1169,7 +1223,7 @@
         <infoLink id="f6c0-f2d9-af82-3f11" name="Iron Will" hidden="false" targetId="8f05-7fdf-356d-8fd2" type="rule"/>
         <infoLink id="2d03-e542-731f-9b4a" name="Honorable" hidden="false" targetId="248c-5a38-ff9b-1443" type="rule"/>
         <infoLink id="2098-daa4-700e-c6ba" name="The Old Ways" hidden="false" targetId="580d-9ae4-403e-9ac7" type="rule"/>
-        <infoLink id="331c-6f49-8cef-88dc" name="War Bow (mounted)" hidden="false" targetId="6fc3-97cc-b28b-5b93" type="profile">
+        <infoLink id="331c-6f49-8cef-88dc" name="War Bow (Mounted)" hidden="true" targetId="6fc3-97cc-b28b-5b93" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -1183,7 +1237,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="ca4d-2653-e05b-07d0" name="Cavalry Long Spear" hidden="false" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
+        <infoLink id="ca4d-2653-e05b-07d0" name="Cavalry Long Spear" hidden="true" targetId="b0ae-dca4-0b2a-d4dc" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -1191,6 +1245,24 @@
                   <conditions>
                     <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
                     <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d659-d9c2-30f7-d264" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1a29-711d-3b29-01bf" name="Hand Weapon" hidden="false" targetId="da61-d14e-1496-e15e" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f94-47c4-70c5-60ae" type="equalTo"/>
+                    <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2108-cb7c-e1c1-6650" type="equalTo"/>
+                    <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f44-e3b3-db99-3b76" type="equalTo"/>
+                    <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5113-3683-ddfc-ecc6" type="equalTo"/>
+                    <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd4d-5f5a-6ac1-2401" type="equalTo"/>
+                    <condition field="selections" scope="c4a5-7351-0d63-2b52" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56f0-be1a-bddf-f8f3" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
